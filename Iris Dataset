@@ -1,0 +1,22 @@
+import pandas as pd 
+
+#loading data from a file
+df = pd.read_csv("IRIS.csv")
+print(df.head(999))
+print(df.info())
+
+print(df["petal_length"].max())
+print(df["petal_length"].min())
+print(df["petal_length"].mean())
+
+print(df["petal_width"].max())
+print(df["petal_width"].min())
+print(df["petal_width"].mean())
+
+print(df["sepal_length"].max())
+print(df["sepal_length"].min())
+print(df["sepal_length"].mean())
+
+print(df["sepal_width"].max())
+print(df["sepal_width"].min())
+print(df["sepal_width"].mean())
